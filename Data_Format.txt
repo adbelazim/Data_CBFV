@@ -1,0 +1,26 @@
+Los datos contienen 1440 registros, equivalentes a 4.8 minutos de grabación.
+
+El separador entre columnas es un tab.
+
+Data format:
+
+	Column 1: time frecuency
+	Column 2: abp
+	Column 3: cbfv
+	Column 4: etco2
+
+Los datos se encuentran en 4 carpetas:
+
+normocapnia_data:
+	Datos reales de sujetos en estado normal
+
+hypercapnia_data:
+	Datos reales de sujetos en hipercapnia inhalando 5% de CO2 por una mascarilla
+
+normocapnia_simulated
+	Datos simulados de sujetos según modelo de Asslid Ticks.
+	Se simula en base a la presión la velocidad de flujo sanguíneo teórico para ARIs 1, 5 y 9
+
+hypercapnia_simulated
+	Datos simulados de sujetos según modelo de Asslid Ticks.
+	Se simula en base a la presión la velocidad de flujo sanguíneo teórico para ARIs 1, 5 y 9
